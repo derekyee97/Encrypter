@@ -12,9 +12,8 @@ A C++ program that creates copies of files that are encrypted, and can also decr
 ![Image of encryption](https://github.com/derekyee97/Encrypter/blob/master/output.PNG)
 
 ### Decryption 
-[!Image of decryption](https://github.com/derekyee97/Encrypter/blob/master/option2.PNG)
+![Image of decrypt](https://github.com/derekyee97/Encrypter/blob/master/option2.PNG)
 
 ### Decrypted File 
-[!Image of decryption](https://github.com/derekyee97/Encrypter/blob/master/decrypted.PNG)
-
+![Image of Decrypted file](https://github.com/derekyee97/Encrypter/blob/master/output.PNG)
 
