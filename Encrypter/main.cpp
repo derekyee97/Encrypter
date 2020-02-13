@@ -61,7 +61,36 @@ int main()
 		}
 		else if (choice == 2)
 		{
+			cout << "Please type the file you would like to decrypt.\n";
+			cout << "Example: ' C:\\Users\\Documents\\example.txt \n";
+			string fileName;
+			cin.ignore();
+			getline(cin, fileName);
+			fstream input;
+			ofstream output;
+			input.open(fileName); 
+			if (!input)
+			{
+				cout << "File not found...\n";
+				continue;
+			}
+			output.open("Decrypted.txt");
+			if (!output)
+			{
+				cout << "Output file creation error...\n";
+				continue;
+			}
+			char curr;
+			while (input.eof() == 0)
+			{
 
+				input >> curr;
+				curr = curr - 100; //caesar cipher 
+				output << curr;
+			}
+			input.close();
+			output.close();
+			cout << "Decrypted caesar cipher file in file named 'Decrypted.txt' \n";
 		}
 		
 	}
