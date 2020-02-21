@@ -1,5 +1,5 @@
 # Encrypter
-A C++ program that creates copies of files that are encrypted using caesar cipher, and can also decrypt them as well.
+A C++ program that creates copies of files that are encrypted using Caesar cipher. The file can then be decrypted into an output file as well.
 
 ### MENU 
 ![Image of Guessing Option](https://github.com/derekyee97/Encrypter/blob/master/menu.PNG)
